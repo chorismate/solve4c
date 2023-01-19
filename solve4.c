@@ -1,5 +1,5 @@
 /*
- * C4Solve - an overly slow Connect Four strong solver
+ * Solve4C - an overly slow Connect Four strong solver
  *
  * Written in 2023 by Chorismate <me@chorismate.dev>
  *
@@ -12,6 +12,7 @@
  * <http://creativecommons.org/publicdomain/zero/1.0/>.
  */
 
+#include<assert.h>
 #include<stdio.h>
 
 int main(void) {
