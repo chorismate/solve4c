@@ -13,7 +13,17 @@
  */
 
 #include<assert.h>
+#include<inttypes.h>
 #include<stdio.h>
+
+
+typedef struct {
+	uint64_t position;
+	uint64_t mask;
+	uint64_t bottom;
+	uint64_t key;
+} Position;
+
 
 int main(void) {
 	return 0;
